@@ -3,3 +3,8 @@ deepface
 numpy
 pandas
 matplotlib
+tqdm
+SpeechRecognition
+pydub
+nltk
+gensim
