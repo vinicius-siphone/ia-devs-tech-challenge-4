@@ -1,0 +1,32 @@
+Entregáveis Tech Challenge 4
+
+Monitorar continuamente pacientes por meio de dados multimodais (áudio, vídeo e texto) para identificar sinais precoces de risco específicos da saúde e segurança.
+
+Entregas:
+
+1. Analisar vídeos de consultas para identificar sinais não-verbais de desconforto ou medo. Elaborar indicadores visuais de desconforto psicológico e alertas para possíveis casos de violência.
+
+
+2. Processar gravações de voz de pacientes em consultas, detectando sintomas relacionadas à fala (depressão, ansiedade e sinais de violência). Analisar tom de voz, hesitação e padrões vocais indicativos de trauma
+
+Nesses dois exemplos, aplicar técnicas que analisem as seguintes condições:
+
+- Identificar sinais de violência ou abuso
+- Monitorar o bem-estar psicológico
+- Detectar precocemente riscos em saúde
+
+
+Repositório Git:
+
+- Código-fonte completo
+- Relatório técnico:
+ - Descrição do fluxo multimodal
+ - Modelos aplicados em cada tipo de dado
+ - Resultados obtidos e exemplo de anomalias detectadas
+
+Vídeo de 15 minutos
+
+- Upload no Youtube
+- Demonstração do processamento multimodal
+ - Exemplo prático da análise de áudio e video
+ - Detecção e respostas aos traumas identificados
