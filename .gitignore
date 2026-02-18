@@ -1,0 +1,3 @@
+﻿# Arquivos de cache do Python
+*.py[cod]
+*.cpython-*.pyc

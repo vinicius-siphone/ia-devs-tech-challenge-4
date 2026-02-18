@@ -1,8 +1,12 @@
 {
   "audio_file": "audio-analysis.wav",
   "transcription": {
-    "output_txt": "transcrição-audio.txt",
-    "chunks": 6
+    "output_txt": "transcricao-audio.txt",
+    "chunks": 6,
+    "diarization_mode": "heuristic_speech",
+    "speaker_turns": 6,
+    "analysis_scope": "patient_speech",
+    "patient_chunks_used_in_analysis": 3
   },
   "lda_topics": {
     "ok": true,
@@ -12,43 +16,43 @@
         "top_words": [
           {
             "word": "casa",
-            "weight": 0.037007272243499756
+            "weight": 0.013921434059739113
           },
           {
-            "word": "ficar",
-            "weight": 0.020570965483784676
-          },
-          {
-            "word": "nunca",
-            "weight": 0.02056974172592163
-          },
-          {
-            "word": "dia",
-            "weight": 0.02056923881173134
+            "word": "trabalha",
+            "weight": 0.013914496637880802
           },
           {
             "word": "inteiro",
-            "weight": 0.020567994564771652
+            "weight": 0.013910302892327309
           },
           {
-            "word": "filhos",
-            "weight": 0.020567648112773895
-          },
-          {
-            "word": "colocar",
-            "weight": 0.020566171035170555
-          },
-          {
-            "word": "feia",
-            "weight": 0.020565534010529518
-          },
-          {
-            "word": "consegue",
-            "weight": 0.020564375445246696
+            "word": "comida",
+            "weight": 0.013906372711062431
           },
           {
             "word": "nada",
-            "weight": 0.020563244819641113
+            "weight": 0.013905244879424572
+          },
+          {
+            "word": "feia",
+            "weight": 0.013904426246881485
+          },
+          {
+            "word": "outro",
+            "weight": 0.013903885148465633
+          },
+          {
+            "word": "esposo",
+            "weight": 0.013903195038437843
+          },
+          {
+            "word": "assim",
+            "weight": 0.01390258502215147
+          },
+          {
+            "word": "bateu",
+            "weight": 0.013902171514928341
           }
         ]
       },
@@ -56,44 +60,44 @@
         "topic_id": 1,
         "top_words": [
           {
-            "word": "doméstica",
-            "weight": 0.009451190009713173
+            "word": "duro",
+            "weight": 0.01391963753849268
           },
           {
-            "word": "mulher",
-            "weight": 0.0094304159283638
+            "word": "casa",
+            "weight": 0.013914170674979687
           },
           {
-            "word": "situação",
-            "weight": 0.00942009873688221
+            "word": "gente",
+            "weight": 0.013913756236433983
           },
           {
-            "word": "bem",
-            "weight": 0.009406114928424358
+            "word": "esposo",
+            "weight": 0.01390661858022213
           },
           {
-            "word": "violência",
-            "weight": 0.00940382108092308
+            "word": "perceber",
+            "weight": 0.013906105421483517
           },
           {
-            "word": "porque",
-            "weight": 0.009397047571837902
+            "word": "feia",
+            "weight": 0.013905836269259453
           },
           {
-            "word": "então",
-            "weight": 0.009385944344103336
+            "word": "bateu",
+            "weight": 0.013905735686421394
           },
           {
-            "word": "relato",
-            "weight": 0.009379159659147263
+            "word": "tipo",
+            "weight": 0.013904964551329613
           },
           {
-            "word": "esposa",
-            "weight": 0.009378553368151188
+            "word": "comida",
+            "weight": 0.013904872350394726
           },
           {
-            "word": "pior",
-            "weight": 0.009378260001540184
+            "word": "faz",
+            "weight": 0.013904184103012085
           }
         ]
       },
@@ -101,44 +105,44 @@
         "topic_id": 2,
         "top_words": [
           {
-            "word": "tudo",
-            "weight": 0.04707850515842438
-          },
-          {
-            "word": "acha",
-            "weight": 0.047073181718587875
-          },
-          {
-            "word": "esposa",
-            "weight": 0.04706976190209389
-          },
-          {
             "word": "casa",
-            "weight": 0.03955408185720444
+            "weight": 0.043374475091695786
           },
           {
-            "word": "boa",
-            "weight": 0.0395425483584404
+            "word": "nada",
+            "weight": 0.024160876870155334
           },
           {
-            "word": "bem",
-            "weight": 0.032009609043598175
+            "word": "dia",
+            "weight": 0.024116147309541702
           },
           {
-            "word": "acho",
-            "weight": 0.03200851380825043
+            "word": "inteiro",
+            "weight": 0.024068837985396385
           },
           {
             "word": "filhos",
-            "weight": 0.024483133107423782
-          },
-          {
-            "word": "sempre",
-            "weight": 0.02448207698762417
+            "weight": 0.02404026873409748
           },
           {
             "word": "cuida",
-            "weight": 0.024481620639562607
+            "weight": 0.02396094612777233
+          },
+          {
+            "word": "ficar",
+            "weight": 0.023959973827004433
+          },
+          {
+            "word": "nunca",
+            "weight": 0.023958949372172356
+          },
+          {
+            "word": "acabado",
+            "weight": 0.023952055722475052
+          },
+          {
+            "word": "acontece",
+            "weight": 0.023950187489390373
           }
         ]
       },
@@ -146,44 +150,44 @@
         "topic_id": 3,
         "top_words": [
           {
-            "word": "doméstica",
-            "weight": 0.05254914239048958
+            "word": "casa",
+            "weight": 0.05896157771348953
           },
           {
-            "word": "violência",
-            "weight": 0.03643323481082916
+            "word": "tudo",
+            "weight": 0.05892125517129898
           },
           {
-            "word": "mulher",
-            "weight": 0.03641113266348839
+            "word": "acha",
+            "weight": 0.036595895886421204
           },
           {
-            "word": "situação",
-            "weight": 0.03637664392590523
+            "word": "esposa",
+            "weight": 0.036570437252521515
           },
           {
-            "word": "bate",
-            "weight": 0.020249301567673683
+            "word": "sempre",
+            "weight": 0.03649869188666344
           },
           {
-            "word": "agride",
-            "weight": 0.02024282142519951
+            "word": "acho",
+            "weight": 0.02533520758152008
           },
           {
             "word": "elogiado",
-            "weight": 0.020220180973410606
+            "weight": 0.025335198268294334
           },
           {
-            "word": "porque",
-            "weight": 0.020219678059220314
+            "word": "boa",
+            "weight": 0.025335188955068588
           },
           {
-            "word": "vítima",
-            "weight": 0.020215384662151337
+            "word": "cuido",
+            "weight": 0.025309648364782333
           },
           {
-            "word": "mim",
-            "weight": 0.02021467126905918
+            "word": "faço",
+            "weight": 0.02530796267092228
           }
         ]
       }
@@ -191,160 +195,91 @@
     "doc_topics": [
       {
         "doc_index": 0,
-        "dominant_topic": 2,
-        "dominant_prob": 0.9820123910903931,
+        "dominant_topic": 3,
+        "dominant_prob": 0.982020378112793,
         "topic_distribution": [
           {
             "topic": 0,
-            "prob": 0.0060496157966554165
+            "prob": 0.0059746080078184605
           },
           {
             "topic": 1,
-            "prob": 0.005972880870103836
+            "prob": 0.005974603816866875
           },
           {
             "topic": 2,
-            "prob": 0.9820123910903931
+            "prob": 0.0060304198414087296
           },
           {
             "topic": 3,
-            "prob": 0.005965080112218857
+            "prob": 0.982020378112793
           }
         ]
       },
       {
         "doc_index": 1,
-        "dominant_topic": 2,
-        "dominant_prob": 0.9790259599685669,
+        "dominant_topic": 3,
+        "dominant_prob": 0.9756214022636414,
         "topic_distribution": [
           {
             "topic": 0,
-            "prob": 0.006975107826292515
+            "prob": 0.008090904913842678
           },
           {
             "topic": 1,
-            "prob": 0.006964029278606176
+            "prob": 0.008090904913842678
           },
           {
             "topic": 2,
-            "prob": 0.9790259599685669
+            "prob": 0.008196812123060226
           },
           {
             "topic": 3,
-            "prob": 0.007034908980131149
+            "prob": 0.9756214022636414
           }
         ]
       },
       {
         "doc_index": 2,
         "dominant_topic": 2,
-        "dominant_prob": 0.9755910038948059,
+        "dominant_prob": 0.9784089922904968,
         "topic_distribution": [
           {
             "topic": 0,
-            "prob": 0.008198094554245472
+            "prob": 0.007165326736867428
           },
           {
             "topic": 1,
-            "prob": 0.008083824999630451
+            "prob": 0.007165331859141588
           },
           {
             "topic": 2,
-            "prob": 0.9755910038948059
+            "prob": 0.9784089922904968
           },
           {
             "topic": 3,
-            "prob": 0.008127066306769848
-          }
-        ]
-      },
-      {
-        "doc_index": 3,
-        "dominant_topic": 3,
-        "dominant_prob": 0.978448748588562,
-        "topic_distribution": [
-          {
-            "topic": 0,
-            "prob": 0.00718642259016633
-          },
-          {
-            "topic": 1,
-            "prob": 0.007158515974879265
-          },
-          {
-            "topic": 2,
-            "prob": 0.007206285372376442
-          },
-          {
-            "topic": 3,
-            "prob": 0.978448748588562
-          }
-        ]
-      },
-      {
-        "doc_index": 4,
-        "dominant_topic": 0,
-        "dominant_prob": 0.9783749580383301,
-        "topic_distribution": [
-          {
-            "topic": 0,
-            "prob": 0.9783749580383301
-          },
-          {
-            "topic": 1,
-            "prob": 0.007160230539739132
-          },
-          {
-            "topic": 2,
-            "prob": 0.007261417806148529
-          },
-          {
-            "topic": 3,
-            "prob": 0.007203449495136738
-          }
-        ]
-      },
-      {
-        "doc_index": 5,
-        "dominant_topic": 3,
-        "dominant_prob": 0.6243337392807007,
-        "topic_distribution": [
-          {
-            "topic": 0,
-            "prob": 0.1251753717660904
-          },
-          {
-            "topic": 1,
-            "prob": 0.12541109323501587
-          },
-          {
-            "topic": 2,
-            "prob": 0.12507978081703186
-          },
-          {
-            "topic": 3,
-            "prob": 0.6243337392807007
+            "prob": 0.007260393351316452
           }
         ]
       }
     ],
-    "overall_dominant_topic": 2,
+    "overall_dominant_topic": 3,
     "overall_topic_probs": [
       {
         "topic": 0,
-        "prob": 0.18865992842863002
+        "prob": 0.0070769465528428555
       },
       {
         "topic": 1,
-        "prob": 0.02679176248299579
+        "prob": 0.007076946863283713
       },
       {
         "topic": 2,
-        "prob": 0.5126961398248872
+        "prob": 0.3308787414183219
       },
       {
         "topic": 3,
-        "prob": 0.27185216546058655
+        "prob": 0.6549673912425836
       }
     ]
   },
@@ -353,26 +288,6 @@
     "overall_level": "alto",
     "avg_score": 3.0,
     "top_chunks": [
-      {
-        "chunk_index": 4,
-        "start": "01:30",
-        "end": "02:00",
-        "risk": {
-          "score": 9,
-          "level": "alto",
-          "hits": [
-            {
-              "category": "violence_abuse",
-              "category_score": 9,
-              "terms_found": [
-                "agride",
-                "bate",
-                "violência"
-              ]
-            }
-          ]
-        }
-      },
       {
         "chunk_index": 5,
         "start": "02:00",
@@ -397,11 +312,10 @@
     "categories_summary": [
       {
         "category": "violence_abuse",
-        "score_sum": 18,
-        "term_mentions": 6,
-        "chunk_count": 2,
+        "score_sum": 9,
+        "term_mentions": 3,
+        "chunk_count": 1,
         "chunks": [
-          4,
           5
         ]
       }
@@ -411,10 +325,9 @@
         "term": "agride",
         "canonical_term": "agride",
         "category": "violence_abuse",
-        "mentions": 2,
-        "chunk_count": 2,
+        "mentions": 1,
+        "chunk_count": 1,
         "chunks": [
-          4,
           5
         ]
       },
@@ -422,10 +335,9 @@
         "term": "bate",
         "canonical_term": "bate",
         "category": "violence_abuse",
-        "mentions": 2,
-        "chunk_count": 2,
+        "mentions": 1,
+        "chunk_count": 1,
         "chunks": [
-          4,
           5
         ]
       },
@@ -433,10 +345,9 @@
         "term": "violência",
         "canonical_term": "violencia",
         "category": "violence_abuse",
-        "mentions": 2,
-        "chunk_count": 2,
+        "mentions": 1,
+        "chunk_count": 1,
         "chunks": [
-          4,
           5
         ]
       }
@@ -445,74 +356,74 @@
   "final_summary": {
     "assuntos_discutidos": [
       {
-        "topic_id": 2,
-        "presence": 0.513,
+        "topic_id": 3,
+        "presence": 0.655,
         "keywords": [
+          "casa",
           "tudo",
           "acha",
           "esposa",
-          "casa",
-          "boa",
-          "bem",
+          "sempre",
           "acho",
-          "filhos"
-        ]
-      },
-      {
-        "topic_id": 3,
-        "presence": 0.272,
-        "keywords": [
-          "doméstica",
-          "violência",
-          "mulher",
-          "situação",
-          "bate",
-          "agride",
           "elogiado",
-          "porque"
+          "boa"
         ]
       },
       {
-        "topic_id": 0,
-        "presence": 0.189,
+        "topic_id": 2,
+        "presence": 0.331,
         "keywords": [
           "casa",
-          "ficar",
-          "nunca",
+          "nada",
           "dia",
           "inteiro",
           "filhos",
-          "colocar",
-          "feia"
+          "cuida",
+          "ficar",
+          "nunca"
         ]
       },
       {
         "topic_id": 1,
-        "presence": 0.027,
+        "presence": 0.007,
         "keywords": [
-          "doméstica",
-          "mulher",
-          "situação",
-          "bem",
-          "violência",
-          "porque",
-          "então",
-          "relato"
+          "duro",
+          "casa",
+          "gente",
+          "esposo",
+          "perceber",
+          "feia",
+          "bateu",
+          "tipo"
+        ]
+      },
+      {
+        "topic_id": 0,
+        "presence": 0.007,
+        "keywords": [
+          "casa",
+          "trabalha",
+          "inteiro",
+          "comida",
+          "nada",
+          "feia",
+          "outro",
+          "esposo"
         ]
       }
     ],
     "conclusion": {
       "classification": "possivel_relato_violencia_ou_abuso",
       "message": "Há indícios lexicais consistentes de violencia/abuso na transcrição.",
-      "non_clinical_notice": "Resultado baseado em regras lexicais; nao representa diagnostico clinico.",
+      "non_clinical_notice": "Resultado baseado em regras lexicais; nao representa diagnostico clínico.",
       "evidence": {
         "overall_level": "alto",
         "avg_score": 3.0,
         "dominant_sensitive_category": "violence_abuse",
-        "sensitive_chunks": 2,
-        "total_chunks": 6,
+        "sensitive_chunks": 1,
+        "total_chunks": 3,
         "sensitive_chunk_coverage": 0.333,
-        "violence_mentions_in_chunks": 2,
+        "violence_mentions_in_chunks": 1,
         "categories_detected": [
           "violence_abuse"
         ],
@@ -522,6 +433,51 @@
           "violência"
         ]
       }
+    },
+    "speaker_summary": {
+      "diarization_mode": "heuristic_speech",
+      "speakers": [
+        {
+          "speaker_role": "Paciente",
+          "turns": 3,
+          "chars": 1200,
+          "risk": {
+            "score": 9,
+            "level": "alto",
+            "hits": [
+              {
+                "category": "violence_abuse",
+                "category_score": 9,
+                "terms_found": [
+                  "agride",
+                  "bate",
+                  "violência"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "speaker_role": "Profissional",
+          "turns": 3,
+          "chars": 777,
+          "risk": {
+            "score": 9,
+            "level": "alto",
+            "hits": [
+              {
+                "category": "violence_abuse",
+                "category_score": 9,
+                "terms_found": [
+                  "agride",
+                  "bate",
+                  "violência"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }
