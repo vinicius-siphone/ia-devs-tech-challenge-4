@@ -354,8 +354,6 @@ def lda_topics_from_chunks(chunks: List[Dict[str, Any]], num_topics: int = LDA_T
     }
 
 # Gerar um resumo dos assuntos discutidos com base nos tópicos LDA e suas presenças no áudio
-
-
 def summarize_discussed_subjects(lda_report: Dict[str, Any], max_topics: int = 4) -> List[Dict[str, Any]]:
     if not lda_report.get("ok"):
         return []

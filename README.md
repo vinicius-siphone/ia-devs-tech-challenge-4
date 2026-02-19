@@ -1,6 +1,6 @@
 ﻿# Tech-Challenge (4ª Fase)
 
-### Processamento e análise de vídeo e áudio em sessões terapêuticas.
+### Processamento e Análise Multimodal em Sessões Terapêuticas.
 
 ### Alunos (6IADT)
 - Luis Gustavo de Araújo Silva — RM 366233  
