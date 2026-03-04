@@ -37,7 +37,7 @@ py -m pip install -r requirements.txt
 Coloque o arquivo de áudio em:
 
 ```text
-audio-analysis/audio-analysis.wav
+audio-analysis/audio-analysis-output.wav
 ```
 
 Observação:
