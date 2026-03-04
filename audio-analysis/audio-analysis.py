@@ -15,7 +15,7 @@ from nltk.corpus import stopwords
 from pydub import AudioSegment
 
 # Configurações e constantes para o processamento do áudio e análise de risco
-AUDIO_FILE = "audio-analysis.wav"
+AUDIO_FILE = "audio-analysis-output.wav"
 TRANSCRIPT_FILE = "transcricao-audio.txt"
 REPORT_FILE = "relatorio_audio.json"
 

@@ -1,5 +1,5 @@
 {
-  "audio_file": "audio-analysis.wav",
+  "audio_file": "audio-analysis-output.wav",
   "transcription": {
     "output_txt": "transcricao-audio.txt",
     "chunks": 6,
@@ -460,7 +460,7 @@
         {
           "speaker_role": "Profissional",
           "turns": 3,
-          "chars": 777,
+          "chars": 774,
           "risk": {
             "score": 9,
             "level": "alto",
